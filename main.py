@@ -116,3 +116,4 @@ if __name__ == "__main__":
     print("البوت شغال 24/7...")
     threading.Thread(target=run_schedule, daemon=True).start()
     bot.infinity_polling()
+
